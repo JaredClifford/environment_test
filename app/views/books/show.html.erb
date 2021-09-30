@@ -1,8 +1,22 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
-  <%= @book.title %>
+  <tr>
+	  <strong>Title:</strong>
+	  <%= @book.title %>
+  </tr>
+  <tr>
+	  <strong>Author:</strong>
+	  <%= @book.author %>
+  </tr>
+  <tr>
+	  <strong>Price:</strong>
+	  <%= @book.price %>
+  </tr>
+  <tr>
+	  <strong>Date:</strong>
+	  <%= @book.date %>
+  </tr>
 </p>
 
 <%= link_to 'Edit', edit_book_path(@book) %> |
